@@ -7,6 +7,9 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.intro-heading {
+    background: rgba(0,0,0,0.5);
+}
 .text-muted {
   color: #777777;
 }
@@ -226,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6f/Earth_Eastern_Hemisphere.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -252,7 +255,7 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 22px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -272,7 +275,7 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 22px;
     line-height: 75px;
     margin-bottom: 50px;
   }
@@ -281,7 +284,7 @@ section {
   padding: 100px 0;
 }
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -356,7 +359,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 }
 #portfolio * {
@@ -702,7 +705,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .close-modal .lr {
   height: 75px;
-  width: 1px;
+  width: 5px;
   margin-left: 35px;
   background-color: #222222;
   transform: rotate(45deg);
@@ -714,7 +717,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
-  width: 1px;
+  width: 5px;
   background-color: #222222;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
